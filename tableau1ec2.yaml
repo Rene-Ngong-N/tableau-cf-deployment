@@ -278,7 +278,7 @@ Parameters:
     Default: tableau-demo-bmf
 
   RegState:
-    Description: State of the user
+    Description: State of the user epel-release
     Type: String
     Default: CO
 

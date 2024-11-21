@@ -1,6 +1,6 @@
 [
     {
-        "ParameterKey": "TableauServerSubdomain",
+        "ParameterKey": "TableauServerSubDomainName",
         "ParameterValue": "tableau"
     },
     {
@@ -39,14 +39,11 @@
         "ParameterKey": "QSS3KeyPrefix",
         "ParameterValue": "cfn-ps-tableau-server/"
     },
-    {
-        "ParameterKey": "TsmSubdomain",
-        "ParameterValue": "tableau-tsm"
-    },
+    
     {
         "ParameterKey": "TableauS3BucketName",
         "ParameterValue": "tableau-demo-bmf"
-[
+    },
     {
         "ParameterKey": "RegIndustry",
         "ParameterValue": "Technology"
@@ -128,7 +125,7 @@
     },
     {
         "ParameterKey": "AcceptEULA",
-        "ParameterValue": ""
+        "ParameterValue": "yes"
     },
     {
         "ParameterKey": "SourceCIDR",
@@ -136,7 +133,7 @@
     },
     {
         "ParameterKey": "TsmPassword",
-        "ParameterValue": "****"
+        "ParameterValue": "tableau"
     },
     {
         "ParameterKey": "PrivateSubnet1ID",
@@ -178,10 +175,7 @@
         "ParameterKey": "RegState",
         "ParameterValue": "CO"
     },
-    {
-        "ParameterKey": "TableauServerSubDomainName",
-        "ParameterValue": "tableau"
-    },
+    
     {
         "ParameterKey": "LicenseKey",
         "ParameterValue": ""
