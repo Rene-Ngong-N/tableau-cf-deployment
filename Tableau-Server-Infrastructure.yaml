@@ -302,7 +302,7 @@ Parameters:
   LicenseKey:
     Description: License Key for Tableau Server (leave blank for trial)
     Type: String
-    Default: ''
+    Default: ./licensekey.key
 
 
 Conditions:
